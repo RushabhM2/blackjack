@@ -1,0 +1,120 @@
+/*------------------------------BODY LAYOUT----------------------------*/
+
+body{
+    background-color: darkolivegreen;
+    background-image: url(https://image.freepik.com/free-vector/casino-background-pattern_23-2147498271.jpg?1);
+    background-size: cover;
+    font-family: serif;
+    color: honeydew;
+}
+h1{
+    float: left;
+    transform: rotate(330deg);
+    padding: 50px;
+    margin: auto;
+    color: red;
+}
+
+h2{
+    margin-bottom: 5px;
+}
+
+#container{
+    margin: 0 auto;
+    width: 60%;
+}
+
+#feedback{
+    height: 40px;
+    border: 3px solid red;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-style: bold;
+    border-radius: 5px;
+    padding-bottom: 0px;
+    margin-top: 50px ;
+    margin left: auto;
+    margin right: auto;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+p{
+    width: 200px;
+    height: 36px;
+}
+
+table{
+    margin: auto;
+    padding: 10px;
+}
+
+.total{
+    float: left;
+    width: 50px;
+    font-size: 50px;
+}
+/*--------------------------------CARD LAYOUT & STYLING-----------------*/
+.cards-container{
+    height: 220px;
+    width: 75%;
+    border: 5px solid red;
+    margin: 0 auto;
+    border-radius: 12px;
+    align-self: right;
+}
+
+#first{
+    margin: 0 auto;
+}
+
+.card{
+    width: 80px;
+    float: left
+}
+
+.card-image{
+    width: 130px;
+    border-radius: 12px;
+    box-shadow: -5px 1px 5px rgba(0, 0, 0, .5);
+}
+.card-value{
+    height: 20%;
+    text-align: right;
+}
+
+/*-----------------------------BUTTON STYLING-----------------------------*/
+button{
+    width: 100px;
+    height: 100px;
+    font-size: 20px;
+    border-radius: 50px ;
+    float: left;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+#hit{
+    background-color: hotpink;
+    display: none;
+    float: left;
+    padding: 20px 0;
+}
+
+#stand{
+    background-color: darkcyan;
+    display: none;
+    float: left;
+    padding: 20px 0;
+}
+
+#new-game{
+    background-color: lightcyan;
+    margin: auto;
+}

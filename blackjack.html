@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Black Jack Assignment - Rushabh Mehta</title>
+        <link rel="stylesheet" type="text/css" href="blackjack.css"></link>
+    </head>
+    <body>
+        <h1>LET'S<br> PLAY<br> BLACK<br> JACK!!</h1>
+            <div id="container">
+                <h2>Dealer</h2>
+                <div class="wrapper">
+                    <p class="total" id="dealer-total"></p>
+                    <div id="dealer" class="cards-container"></div>
+                </div>
+
+                <div id="feedback"></div>
+
+                <h2>Player</h2>
+                <div class="wrapper">
+                    <p class="total" id="user-total"></p>
+                    <div id="user" class="cards-container"></div>
+                </div>
+                
+                <div class="table">
+                    <table>
+                        <tr>
+                            <th>Player Wins</th>
+                            <th>Dealer Wins</th>
+                            <th>Games played</th>
+                        </tr>
+                        <tr>
+                            <th id="wins"></th>
+                            <th id="losses"></th>
+                            <th id="games"></th>
+                        </tr>
+                    </table>
+                </div>   
+                <div class="buttons">
+                    <button id="hit">Hit</button>
+                    <button id="stand">Stand</button>
+                    <button id="new-game">New game</button>
+                </div> 
+            </div>
+        <script type="text/javascript" src=blackjack.js></script>
+    </body>
+</html>
